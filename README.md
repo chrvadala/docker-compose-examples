@@ -5,6 +5,7 @@ Each example can be used as boilerplate.
 
 ## Examples
 - [Docker compose for Worpdress](wordpress/)
+- [Docker compose for Worpdress with Sage theme](wordpress-sagetheme/)
 
 ## Supported version
 - docker-compose 1.5.0

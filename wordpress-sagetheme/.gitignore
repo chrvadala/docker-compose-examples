@@ -1,0 +1,14 @@
+wp-admin/*
+wp-content/*
+!wp-content/themes/sage/*
+wp-includes/*
+wp-*.php
+index.php
+license.txt
+readme.html
+xmlrpc.php
+
+
+#Do NOT remove the lines above
+node_modules
+bower_components

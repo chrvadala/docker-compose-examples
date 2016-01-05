@@ -1,0 +1,34 @@
+#For reference see instructions at https://github.com/chrvadala/docker-compose-examples
+
+web:
+  build: ./docker_files/php
+  volumes:
+    - "./:/usr/src/app"
+    - "./docker_files/wp-config.php:/usr/src/app/wp-config.php"
+  dns: 8.8.8.8
+  working_dir: /usr/src/app
+  ports:
+    - "8080:8080"
+  command: sh -c 'php -S 0.0.0.0:$${WP_PORT}'
+  env_file: ./docker_files/global.env
+  environment:
+        DOCKER_HOST: ${DOCKER_HOST}
+  links:
+    - db
+
+
+db:
+  image: mysql
+  env_file: ./docker_files/global.env
+  ports:
+      - "3306:3306"
+
+
+assets:
+  build: ./docker_files/node
+  volumes:
+    - "./wp-content/themes/sage:/usr/src/app"
+    - "./docker_files/node/setup.sh:/usr/src/app/setup"
+  dns: 8.8.8.8
+  working_dir: /usr/src/app
+  command: ./node_modules/.bin/gulp watch
