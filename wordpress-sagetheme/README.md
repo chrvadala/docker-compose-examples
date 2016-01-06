@@ -9,7 +9,7 @@ Each example can be used as boilerplate.
 2. [Download Sage Theme](https://github.com/roots/sage/releases/latest) and put theme's files into `wp-content/themes/sage/`
 3. Setup theme ` $ docker-compose run assets sh setup `
 4. Start docker compose ` $ docker-compose up `
-5. Open `http://<docher-machine>:8080`
+5. Open `http://<docker-machine>:8080`
 6. Choose Sage Wordpress trough Wordpress Admin Panel
 7. (optional) Use a software like [Mysql Workbench](http://dev.mysql.com/downloads/workbench/)
     to restore DB. Connect to mysql through: `<docker-machine>:3306`
