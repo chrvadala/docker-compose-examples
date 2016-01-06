@@ -6,6 +6,7 @@ Each example can be used as boilerplate.
 ## Examples
 - [Docker compose for Worpdress](wordpress/)
 - [Docker compose for Worpdress with Sage theme](wordpress-sagetheme/)
+- [Docker compose for Nodejs, Babel, Nodemon, Mongodb, Koa](nodejs-babel-nodemon-mongodb-koa/)
 
 ## Supported version
 - docker-compose 1.5.0
