@@ -1,0 +1,13 @@
+#For reference see instructions at https://github.com/chrvadala/docker-compose-examples
+
+web:
+  build: ./docker_files/node
+  volumes:
+    - ".:/usr/src/app"
+    - "./docker_files/node/setup.sh:/usr/src/app/setup"
+  dns: 8.8.8.8
+  working_dir: /usr/src/app
+  ports:
+    - "9001:9001"
+    - "36000:36000"
+  command: ./node_modules/.bin/grunt serve

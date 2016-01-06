@@ -23,3 +23,9 @@
 /wordpress-sagetheme/*.html
 /wordpress-sagetheme/*.php
 
+
+/yeoman-angular-webapp/.*
+/yeoman-angular-webapp/app
+/yeoman-angular-webapp/test
+/yeoman-angular-webapp/*.js*
+/yeoman-angular-webapp/setup
