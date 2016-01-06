@@ -1,0 +1,12 @@
+{
+  "execMap": {
+    "js": "babel-node"
+  },
+  "watch": [
+    "src/*.js",
+    "package.json"
+  ],
+  "verbose": true,
+  "ext": "js json",
+  "legacyWatch": true
+}
