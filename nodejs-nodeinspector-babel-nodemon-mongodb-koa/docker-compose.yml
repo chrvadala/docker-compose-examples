@@ -10,7 +10,9 @@ web:
     - db
   ports:
     - "3000:3000"
-  command: npm start
+    - "3001:3001"
+    - "5858:5858"
+  command: sh -c "npm start & ./node_modules/.bin/node-inspector --web-host 0.0.0.0 --web-port=3001"
   environment:
     APP_PORT: 3000
     DB_NAME: "project"

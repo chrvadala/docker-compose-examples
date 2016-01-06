@@ -1,6 +1,6 @@
 {
   "execMap": {
-    "js": "babel-node"
+    "js": "babel-node --debug"
   },
   "watch": [
     "src/*.js",
