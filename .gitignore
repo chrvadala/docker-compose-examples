@@ -2,7 +2,6 @@
 !.gitignore
 !.editorconfig
 
-
 /wordpress/**/index.php
 /wordpress/wp-admin/*
 /wordpress/wp-content/*
@@ -10,6 +9,7 @@
 !/wordpress/*/.gitkeep
 /wordpress/*.txt
 /wordpress/*.html
+/wordpress/*.php
 
 
 /wordpress-sagetheme/**/index.php
@@ -21,4 +21,5 @@
 /wordpress-sagetheme/wp-includes
 /wordpress-sagetheme/*.txt
 /wordpress-sagetheme/*.html
+/wordpress-sagetheme/*.php
 
