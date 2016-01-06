@@ -8,6 +8,6 @@ web:
   dns: 8.8.8.8
   working_dir: /usr/src/app
   ports:
-    - "9001:9001"
-    - "36000:36000"
+    - "9000:9000"
+    - "3001:3001"
   command: ./node_modules/.bin/grunt serve
