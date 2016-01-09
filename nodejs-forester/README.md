@@ -5,7 +5,7 @@ Each example can be used as boilerplate.
 
 ## Getting started
 
-1. [Download Forester Boilerplate](https://github.com/foresterjs/forester-boilerplate)
+1. [Download Forester Boilerplate](https://github.com/foresterjs/forester-boilerplate/releases/latest)
 2. Put Forester Boilerplate in this directory
 3. Install dependencies ` $ docker-compose run web sh setup `
 4. Start docker compose ` $ docker-compose up `
