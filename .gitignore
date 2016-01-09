@@ -29,3 +29,11 @@
 /yeoman-angular-webapp/test
 /yeoman-angular-webapp/*.js*
 /yeoman-angular-webapp/setup
+
+
+/nodejs-forester/config/*.dist
+/nodejs-forester/config/*.json
+/nodejs-forester/public/*.html
+/nodejs-forester/src/*.js
+/nodejs-forester/structure/*.json
+/nodejs-forester/*.json
