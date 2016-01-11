@@ -1,7 +1,7 @@
 # docker-compose for [Yeoman](http://yeoman.io/) [Angular](https://github.com/yeoman/generator-angular) or [Webapp](https://github.com/yeoman/generator-webapp)
 [This project](https://github.com/chrvadala/docker-compose-examples)
-intend to collect a collection of common docker-compose use case.
-Each example can be used as boilerplate.
+intends to collect common docker-compose use cases.
+Each example can be used as a boilerplate.
 
 ## Getting started
 

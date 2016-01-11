@@ -1,7 +1,7 @@
 # docker-compose for [Wordpress](https://wordpress.org/)
 [This project](https://github.com/chrvadala/docker-compose-examples)
-intend to collect a collection of common docker-compose use case.
-Each example can be used as boilerplate.
+intends to collect common docker-compose use cases.
+Each example can be used as a boilerplate.
 
 ## Getting started
 
