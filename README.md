@@ -9,6 +9,7 @@ Each example can be used as a boilerplate.
 - [Docker compose for Node.js, Node inspector, Babel, Nodemon, Mongodb, Koa](nodejs-nodeinspector-babel-nodemon-mongodb-koa/)
 - [Docker compose for Yeoman Angular or Yeoman Webapp](yeoman-angular-webapp/)
 - [Docker compose for Node.js, Forester](nodejs-forester/)
+- [Docker compose interactive](interactive/)
 
 ## Supported version
 - docker-compose 1.5.0

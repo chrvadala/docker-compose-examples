@@ -1,0 +1,8 @@
+#For reference see instructions at https://github.com/chrvadala/docker-compose-examples
+
+sys:
+  image: ubuntu
+  volumes:
+    - ".:/usr/src/app"
+  dns: 8.8.8.8
+  working_dir: /usr/src/app
